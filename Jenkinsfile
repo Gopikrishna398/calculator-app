@@ -29,10 +29,8 @@ pipeline {
         stage('Create JAR') {
             steps {
                 bat '''
-                bat '''
 "C:\\Users\\Gopi Krishna\\Downloads\\jdk-17.0.12_windows-x64_bin\\jdk-17.0.12\\bin\\jar.exe" cfe hello.jar Hello -C build .
 '''
-                '''
             }
         }
 
