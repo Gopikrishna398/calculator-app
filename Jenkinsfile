@@ -21,7 +21,7 @@ pipeline {
             steps {
                 bat '''
                 mkdir build
-                javac -d build src\\Hello.java
+                javac -d build src\\cal.java
                 '''
             }
         }
